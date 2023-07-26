@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eadce1;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+h1 {
+  background-color: #f8b8cf;
+  padding: 60px 60px 60px 60px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  font-size: 7vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.hero {
+  color: #090808;
+  text-align: center;
+  padding: 0%;
+  border-bottom: 50px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 19px;
+}
+
+.slogan {
+  padding: 10px 20px;
+}
+
+.slogan h2 {
+  text-align: center;
+}
+
+.menu-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.about-icecream {
+  text-align: center;
+  padding: 5px 20%;
+  font-size: 19px;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

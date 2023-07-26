@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frosty Delights Creamery - Menu</title>
+    <link rel="stylesheet" href="contact.css" />
+
+    <script type="text/javascript">
+      function submit() {
+        alert("Submitted!");
+        document.getElementById("form1").reset();
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="contact">
+        <h2>Contact Us</h2>
+      </section>
+
+      <div class="container">
+        <form id="form1">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Name" />
+
+          <label for="email">Email</label>
+          <input type="text" id="name" name="name" placeholder="Email" />
+
+          <label for="feedback">Give us your feedback!</label>
+          <textarea
+            id="feedback"
+            name="feedback"
+            placeholder="Write your feedback here"
+            style="height: 100px"
+          ></textarea>
+        </form>
+        <button type="button" name="submit" onclick="submit();">Submit</button>
+      </div>
+
+      <div class="logo">
+        <img src="images/resized/Screenshot 2023-07-26 122459.png" />
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Frosty Delights Ice Cream Shop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
